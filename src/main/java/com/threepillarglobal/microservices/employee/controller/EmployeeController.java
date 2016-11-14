@@ -11,7 +11,7 @@ import com.threepillarglobal.microservices.employee.model.Employee;
 import com.threepillarglobal.microservices.employee.repo.EmployeeRepository;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("employee")
 public class EmployeeController {
      
     @Autowired
